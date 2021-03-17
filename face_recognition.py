@@ -1,10 +1,5 @@
 # Developing a face recognition system using PCA and machine learning 
 
-##STEPS :
-# 1) Prepare dataset by flattening Images
-# 2) Apply PCA on the dataset to reduce dimensions
-# 3) Train the classifier with this dataset of reduced features
-# 4) Test  
 
 import numpy as np
 import pandas as pd
@@ -92,19 +87,3 @@ while(1):
 # When everything done, release the capture
 cap.release()
 cv2.destroyAllWindows()
-
-
-
-
-
-
-
-
-
-
-
-
-
-print('Number of People:')
-print(2)
-
